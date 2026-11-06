@@ -1,1 +1,3 @@
-# production-dash
+# Dashboard
+
+Private, password-protected dashboard.
