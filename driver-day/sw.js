@@ -1,5 +1,5 @@
 // Driver Day offline support: fetch fresh when online, fall back to the last copy offline.
-const CACHE = 'driver-day-202611071257';
+const CACHE = 'driver-day-202611071301';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png'];
 const BASE = self.registration.scope;
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
