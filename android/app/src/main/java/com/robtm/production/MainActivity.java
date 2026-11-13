@@ -13,8 +13,8 @@ import android.webkit.WebViewClient;
 
 /** Opens the password-locked production dashboard full screen. Holds no figures itself. */
 public class MainActivity extends Activity {
-    private static final String HOME = "https://robtransportmanager-spec.github.io/production-dash/";
-    private static final String HOST = "robtransportmanager-spec.github.io";
+    private static final String HOME = "https://datainsights26.github.io/production-dash/";
+    private static final String HOST = "datainsights26.github.io";
     private WebView web;
 
     @Override
